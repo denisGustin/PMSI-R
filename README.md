@@ -1,26 +1,7 @@
+# Codes R pour le PMSI
 
-# RPMSI
+Scripts R d'analyse des PMSI MCO, SSR, PSY et HAD
 
-<!-- badges: start -->
-<!-- badges: end -->
+## 2020
 
-The goal of RPMSI is to ...
-
-## Installation
-
-You can install the released version of RPMSI from [CRAN](https://CRAN.R-project.org) with:
-
-``` r
-install.packages("RPMSI")
-```
-
-## Example
-
-This is a basic example which shows you how to solve a common problem:
-qsd
-
-``` r
-library(RPMSI)
-## basic example code
-```
-
+**Semaine 39 (Tableau répartition GHM par UM)** [(code)](https://github.com/denisGustin/PMSI-R/blob/master/2020/hello.R)
