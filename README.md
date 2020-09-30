@@ -6,4 +6,4 @@ Scripts R d'analyse des PMSI MCO, SSR, PSY et HAD
 
 **Semaine 39 (Tableau répartition GHM par UM)** [(code)](https://github.com/denisGustin/PMSI-R/blob/master/2020/week_39_GHM_par_UM.R)
 
-![](https://github.com/denisGustin/PMSI-R/blob/master/2020/Rplot02.png)
+![](https://github.com/denisGustin/PMSI-R/blob/master/2020/jeu_week_39_gt.png)
