@@ -38,7 +38,7 @@ jeu_week_39_gt <- jeu_week_39 %>%
   # mise en évidence de la colonne des GHM
   gt::gt(rowname_col = "ghm") %>%
   # regroupement des UM
-  # on ne regroupe pas l'UM URGE = une activité réalisete d'urgences
+  # on ne regroupe pas l'UM URGE
   gt::tab_spanner(label = "Médecine",
                   columns = c("MCAR","MPNE","MGAS","MGER")) %>%
   gt::tab_spanner(label = "Chirurgie",
@@ -118,6 +118,7 @@ jeu_week_39_gt <- jeu_week_39 %>%
     locations = cells_column_spanners(gt::everything())
   ) %>%
   # dégradé de couleurs de 0 à 100% en fonction des valeurs des proportions de GHM par UM
+  # avec le package paletteer::
   gt::data_color(
     columns = 5:last_col(),
     colors = scales::col_numeric(
